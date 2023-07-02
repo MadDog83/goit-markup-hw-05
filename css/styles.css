@@ -15,7 +15,15 @@ body {
 
 button {
     cursor: pointer;
-   
+    background-color: #4D5AE5;
+    color: #ffffff;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
 }
 
 a {
@@ -237,19 +245,10 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .hero-btn {
-    background: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
     text-align: center;
-    color: #FFFFFF;
     display: block;
     min-width: 169px;
     height: 56px;
-    border: none;
-    border-radius: 4px;
     margin: 0% auto;
     padding: 16px 32px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -713,6 +712,10 @@ h1,h2,h3,h4,h5,h6,p {
   |============================
 */
 
+.subscribe {
+margin-left: 80px;
+}
+
 .subscribe-par {
     margin-bottom: 16px;
     font-weight: 500;
@@ -737,15 +740,6 @@ placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background-color: #F4F4FD;
-    border-radius: 4px;
-
 }
 
 .form-input {
@@ -764,7 +758,7 @@ placeholder {
 
 .subscribe-icon {
     margin-left: 16px;
-    
+
 }
 
 
