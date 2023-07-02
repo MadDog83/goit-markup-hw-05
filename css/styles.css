@@ -869,7 +869,7 @@ placeholder {
 }
 
 
-.checkbox-input:checked {
+.input-checkbox:checked + .checkbox-label {
     background-color: var(--link-color2);
     border: none;
     fill: var(--title-background);
@@ -941,6 +941,7 @@ placeholder {
     
 }
 
+.modal-svg-input:hover,
 .modal-svg-input:focus {
     fill: #4D5AE5;
 }
