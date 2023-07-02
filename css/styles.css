@@ -15,6 +15,7 @@ body {
 
 button {
     cursor: pointer;
+   
 }
 
 a {
@@ -705,6 +706,67 @@ h1,h2,h3,h4,h5,h6,p {
     color: #F4F4FD;
     max-width: 264px
 }
+
+/**
+  |============================
+  | subscribes styles
+  |============================
+*/
+
+.subscribe-par {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.subscribe-report {
+    display: flex;
+    gap: 24px;
+}
+
+placeholder {
+    color: #ffffff;
+}
+
+.form-button {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+
+}
+
+.form-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.subscribe-icon {
+    margin-left: 16px;
+    
+}
+
 
 /**
   |============================
