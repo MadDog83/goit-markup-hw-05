@@ -730,7 +730,7 @@ margin-left: 80px;
     gap: 24px;
 }
 
-placeholder {
+.form-input:focus::placeholder {
     color: #ffffff;
 }
 
