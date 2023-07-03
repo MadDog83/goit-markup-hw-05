@@ -838,7 +838,6 @@ placeholder {
 
 .modal-icon-container {
     position: relative;
-
 }
 
 .modal-comment-container {
@@ -941,8 +940,7 @@ placeholder {
     
 }
 
-.modal-svg-input:hover,
-.modal-svg-input:focus {
+.modal-icon-input:focus +.modal-svg-input {
     fill: #4D5AE5;
 }
 
