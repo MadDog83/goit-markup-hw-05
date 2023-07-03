@@ -869,7 +869,7 @@ placeholder {
 }
 
 
-.input-checkbox:checked + .checkbox-label {
+.checkbox-input:checked + .checkbox-label .checkbox-label-text {
     background-color: var(--link-color2);
     border: none;
     fill: var(--title-background);
